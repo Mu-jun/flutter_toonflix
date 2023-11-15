@@ -33,7 +33,62 @@ class MyApp extends StatelessWidget {
                         'Welcome back',
                         style: TextStyle(
                           color: Colors.white.withOpacity(0.7),
-                          fontSize: 14,
+                          fontSize: 18,
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(height: 30),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Total Balance',
+                    style: TextStyle(
+                      color: Colors.white.withOpacity(0.7),
+                      fontSize: 22,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text(
+                    '\$5 194 382',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 42,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  SizedBox(height: 20),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.amber,
+                            borderRadius: BorderRadius.circular(50)),
+                        padding: EdgeInsets.symmetric(
+                          vertical: 22,
+                          horizontal: 55,
+                        ),
+                        child: Text(
+                          'Transfer',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 27, 27, 27),
+                          borderRadius: BorderRadius.circular(50),
+                        ),
+                        padding: EdgeInsets.symmetric(
+                          vertical: 22,
+                          horizontal: 55,
+                        ),
+                        child: Text(
+                          'Request',
+                          style: TextStyle(fontSize: 18, color: Colors.white),
                         ),
                       ),
                     ],
