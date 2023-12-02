@@ -1,3 +1,11 @@
+## setState
+
+- 상태가 변하였으므로 Widget에게 상태가 변하였음을 알림.
+
+## BuildContext
+
+- 부모노드의 정보가 들어있는 곳.
+
 # Reference Design
 
 - https://dribbble.com/shots/19858341-Finnancial-Mobile-IOS-App
