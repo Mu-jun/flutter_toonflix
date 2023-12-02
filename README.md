@@ -1,10 +1,30 @@
 ## setState
 
 - 상태가 변하였으므로 Widget에게 상태가 변하였음을 알림.
+- Widget이 다시 빌드함.
 
 ## BuildContext
 
 - 부모노드의 정보가 들어있는 곳.
+
+## StatefulWidget의 생명주기(Lifecycle)
+
+- statelessWidget을 statefulwiget으로 변경할 경우
+  statefulwiget은 생명주기를 관리하기 때문에
+  앱을 다시 시작해주어야 오류가 안 생긴다.
+- 이를 통해 이벤트, 스트림 등을 관리할 수 있다.
+
+### initState 메서드
+
+- 빌드 전에 오직 한 번 호출됨.
+
+### build 메서드
+
+- 화면을 빌드함.
+
+### despose 메서드
+
+- Widget이 화면에서 제거될 때 호출됨.
 
 # Reference Design
 
